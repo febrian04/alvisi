@@ -1,0 +1,138 @@
+	body {	
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+
+	header {	font-size: 18pt;
+				background-repeat: no-repeat;
+				background-color: gray;
+				height: 100px;
+				border-bottom: 5px solid black;
+				border-style: inset;
+			}
+	.logo { 
+			margin-left: 80px;
+			margin-top: 2px;
+			float: left;
+			}
+	.text1 {
+		float: left;
+		color: white;
+		font-size: 30px;
+		margin-top: 15px;
+	}
+	.text2 {
+		float: left;
+		color: white;
+		position: absolute;
+		font-size: 20px;
+		margin-left: 175px;
+		margin-top: 30px;
+	}
+
+.navigasi {
+	border-radius: 10px;
+	display: inline-block;
+	float: right;
+	margin-top: 0px;
+	font-size: 15px;
+	margin-right: 20px;
+	padding: 20px 0px 20px 0px;
+	background-color: gray;
+}
+.aktif {
+	border-radius: 10px;
+	background-color: black;
+}
+.navigasi a {
+	text-decoration: none;
+	padding: 15px;
+	color: white;
+}
+.navigasi a:hover {
+	border-radius: 10px;
+	background: black;
+	color: white;
+}
+.content {
+	color: white;
+	margin-top: 20px;
+	display: none;
+    position: absolute;
+	background-color: rgba(102, 153, 153, 0.7);
+    min-width: 164px;
+}
+.content a {
+	color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.content a:hover {
+	background-color: black;
+}
+
+.vl {
+	position: absolute;
+    border-left: 6px solid gray;
+    height: 630px;
+    margin-left: 200px; 
+    margin-top: -150px;
+}
+
+.isi {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    width: 70%;
+    border: 10px;
+    padding: 0px;
+    margin-left: 257px;
+    border:7px solid black;
+	border-style: inset;
+	margin-top: 120px;
+	font-size: 16px;
+}
+.pinggir{
+	position: absolute;
+	margin-top: 129px;
+	position: absolute;
+	width: 200px;
+	margin-top: 
+	background-color: #f1f1f1
+}
+.tanggal {
+	position: absolute;
+	width: 200px;
+	margin-bottom: 900px;
+	background-color: #f1f1f1
+}
+
+
+ul {
+    list-style-type: none;
+    margin-top: -510;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: gray;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
